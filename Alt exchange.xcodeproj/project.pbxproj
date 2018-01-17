@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		AB55077C200F6C8A00B02908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB55077B200F6C8A00B02908 /* AppDelegate.swift */; };
-		AB55077E200F6C8A00B02908 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB55077D200F6C8A00B02908 /* ViewController.swift */; };
 		AB550781200F6C8A00B02908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB55077F200F6C8A00B02908 /* Main.storyboard */; };
 		AB550783200F6C8A00B02908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB550782200F6C8A00B02908 /* Assets.xcassets */; };
 		AB550786200F6C8A00B02908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB550784200F6C8A00B02908 /* LaunchScreen.storyboard */; };
 		AB550791200F6C8A00B02908 /* Alt_exchangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB550790200F6C8A00B02908 /* Alt_exchangeTests.swift */; };
 		AB55079C200F6C8A00B02908 /* Alt_exchangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB55079B200F6C8A00B02908 /* Alt_exchangeUITests.swift */; };
+		AB5507AA200F6CBA00B02908 /* WalletsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5507A9200F6CBA00B02908 /* WalletsViewController.swift */; };
+		AB5507AC200F6CCA00B02908 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5507AB200F6CCA00B02908 /* HistoryViewController.swift */; };
+		AB5507AE200F6CDC00B02908 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5507AD200F6CDC00B02908 /* MyProfileViewController.swift */; };
+		AB5507B0200F6CF600B02908 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5507AF200F6CF600B02908 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		AB550778200F6C8A00B02908 /* Alt exchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alt exchange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB55077B200F6C8A00B02908 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB55077D200F6C8A00B02908 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB550780200F6C8A00B02908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB550782200F6C8A00B02908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB550785200F6C8A00B02908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		AB550797200F6C8A00B02908 /* Alt exchangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alt exchangeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB55079B200F6C8A00B02908 /* Alt_exchangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alt_exchangeUITests.swift; sourceTree = "<group>"; };
 		AB55079D200F6C8A00B02908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5507A9200F6CBA00B02908 /* WalletsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsViewController.swift; sourceTree = "<group>"; };
+		AB5507AB200F6CCA00B02908 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		AB5507AD200F6CDC00B02908 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		AB5507AF200F6CF600B02908 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				AB55077B200F6C8A00B02908 /* AppDelegate.swift */,
-				AB55077D200F6C8A00B02908 /* ViewController.swift */,
+				AB5507A9200F6CBA00B02908 /* WalletsViewController.swift */,
+				AB5507AF200F6CF600B02908 /* SettingsViewController.swift */,
+				AB5507AB200F6CCA00B02908 /* HistoryViewController.swift */,
+				AB5507AD200F6CDC00B02908 /* MyProfileViewController.swift */,
 				AB55077F200F6C8A00B02908 /* Main.storyboard */,
 				AB550782200F6C8A00B02908 /* Assets.xcassets */,
 				AB550784200F6C8A00B02908 /* LaunchScreen.storyboard */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB55077E200F6C8A00B02908 /* ViewController.swift in Sources */,
+				AB5507AC200F6CCA00B02908 /* HistoryViewController.swift in Sources */,
 				AB55077C200F6C8A00B02908 /* AppDelegate.swift in Sources */,
+				AB5507AE200F6CDC00B02908 /* MyProfileViewController.swift in Sources */,
+				AB5507B0200F6CF600B02908 /* SettingsViewController.swift in Sources */,
+				AB5507AA200F6CBA00B02908 /* WalletsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
