@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14C103E9197378D0B4E31302 /* Pods_Alt_exchange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDE269FE27A87C434690C1D /* Pods_Alt_exchange.framework */; };
+		AB0DFC7520192ECF0093B29E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0DFC7420192ECF0093B29E /* HistoryViewController.swift */; };
+		AB0DFC7720192EF80093B29E /* RechangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0DFC7620192EF80093B29E /* RechangeViewController.swift */; };
+		AB135C022017D091006E39E6 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB135C012017D091006E39E6 /* LogInViewController.swift */; };
+		AB135C042017F0D0006E39E6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB135C032017F0D0006E39E6 /* RegisterViewController.swift */; };
+		AB13D9D12018025500AB8DEC /* ProfileInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13D9D02018025500AB8DEC /* ProfileInfoViewController.swift */; };
+		AB13D9D32018043300AB8DEC /* ProfileInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13D9D22018043300AB8DEC /* ProfileInfoTableViewCell.swift */; };
+		AB13D9D52018091A00AB8DEC /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13D9D42018091A00AB8DEC /* SettingsTableViewController.swift */; };
+		AB13D9D72018098700AB8DEC /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13D9D62018098700AB8DEC /* SettingsTableViewCell.swift */; };
+		AB22F35B2018B2A2008BBEA8 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB22F3542018B2A0008BBEA8 /* BEMAnimationManager.m */; };
+		AB22F35C2018B2A2008BBEA8 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB22F3562018B2A1008BBEA8 /* BEMPathManager.m */; };
+		AB22F35D2018B2A2008BBEA8 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = AB22F3572018B2A1008BBEA8 /* BEMCheckBox.m */; };
+		AB22F35E2018B2A2008BBEA8 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = AB22F3592018B2A2008BBEA8 /* BEMCheckBoxGroup.m */; };
+		AB26F9D2201647DA00FF7DC4 /* MainTabs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB26F9D1201647DA00FF7DC4 /* MainTabs.storyboard */; };
+		AB26F9D720171BB600FF7DC4 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26F9D620171BB600FF7DC4 /* NetworkHelper.swift */; };
+		AB26F9D920171BE400FF7DC4 /* CurrencyDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26F9D820171BE400FF7DC4 /* CurrencyDataModel.swift */; };
+		AB26F9DB20171C1100FF7DC4 /* WalletCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26F9DA20171C1100FF7DC4 /* WalletCell.swift */; };
+		AB26F9DE20172CDA00FF7DC4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26F9DD20172CDA00FF7DC4 /* DetailViewController.swift */; };
+		AB26F9E020172D2F00FF7DC4 /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26F9DF20172D2F00FF7DC4 /* CurrencyViewModel.swift */; };
 		AB55077C200F6C8A00B02908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB55077B200F6C8A00B02908 /* AppDelegate.swift */; };
 		AB550781200F6C8A00B02908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB55077F200F6C8A00B02908 /* Main.storyboard */; };
 		AB550783200F6C8A00B02908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB550782200F6C8A00B02908 /* Assets.xcassets */; };
@@ -14,9 +33,18 @@
 		AB550791200F6C8A00B02908 /* Alt_exchangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB550790200F6C8A00B02908 /* Alt_exchangeTests.swift */; };
 		AB55079C200F6C8A00B02908 /* Alt_exchangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB55079B200F6C8A00B02908 /* Alt_exchangeUITests.swift */; };
 		AB5507AA200F6CBA00B02908 /* WalletsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5507A9200F6CBA00B02908 /* WalletsViewController.swift */; };
-		AB5507AC200F6CCA00B02908 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5507AB200F6CCA00B02908 /* HistoryViewController.swift */; };
 		AB5507AE200F6CDC00B02908 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5507AD200F6CDC00B02908 /* MyProfileViewController.swift */; };
-		AB5507B0200F6CF600B02908 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5507AF200F6CF600B02908 /* SettingsViewController.swift */; };
+		AB5507B0200F6CF600B02908 /* CardInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5507AF200F6CF600B02908 /* CardInfoViewController.swift */; };
+		ABC549102017343800BFA2DA /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC549142017343800BFA2DA /* Moya.framework */; };
+		ABC549112017343800BFA2DA /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC549152017343800BFA2DA /* Result.framework */; };
+		ABC549122017343800BFA2DA /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC549162017343800BFA2DA /* RxCocoa.framework */; };
+		ABC549132017343800BFA2DA /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC549172017343800BFA2DA /* RxSwift.framework */; };
+		ABC549192017359E00BFA2DA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC549182017359E00BFA2DA /* MobileCoreServices.framework */; };
+		ABC5491C2017B55A00BFA2DA /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC5491B2017B55A00BFA2DA /* ChartsViewController.swift */; };
+		ABC749EC20195A77009D436D /* RechangeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC749EB20195A77009D436D /* RechangeTableViewCell.swift */; };
+		ABC749EE20196002009D436D /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC749ED20196002009D436D /* HistoryTableViewCell.swift */; };
+		ABC749F12019FDEC009D436D /* AlertPopUpProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC749F02019FDEC009D436D /* AlertPopUpProtocol.swift */; };
+		ABC749F32019FEFB009D436D /* CustomPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC749F22019FEFB009D436D /* CustomPopUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +65,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB0DFC7420192ECF0093B29E /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		AB0DFC7620192EF80093B29E /* RechangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechangeViewController.swift; sourceTree = "<group>"; };
+		AB135C012017D091006E39E6 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		AB135C032017F0D0006E39E6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AB13D9D02018025500AB8DEC /* ProfileInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoViewController.swift; sourceTree = "<group>"; };
+		AB13D9D22018043300AB8DEC /* ProfileInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoTableViewCell.swift; sourceTree = "<group>"; };
+		AB13D9D42018091A00AB8DEC /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		AB13D9D62018098700AB8DEC /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		AB22F3532018B2A0008BBEA8 /* BEMPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMPathManager.h; sourceTree = "<group>"; };
+		AB22F3542018B2A0008BBEA8 /* BEMAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnimationManager.m; sourceTree = "<group>"; };
+		AB22F3552018B2A1008BBEA8 /* BEMAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnimationManager.h; sourceTree = "<group>"; };
+		AB22F3562018B2A1008BBEA8 /* BEMPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMPathManager.m; sourceTree = "<group>"; };
+		AB22F3572018B2A1008BBEA8 /* BEMCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBox.m; sourceTree = "<group>"; };
+		AB22F3582018B2A1008BBEA8 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		AB22F3592018B2A2008BBEA8 /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		AB22F35A2018B2A2008BBEA8 /* BEMCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBox.h; sourceTree = "<group>"; };
+		AB22F35F2018B36E008BBEA8 /* CheckBoxHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckBoxHeader.h; sourceTree = "<group>"; };
+		AB26F9D1201647DA00FF7DC4 /* MainTabs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTabs.storyboard; sourceTree = "<group>"; };
+		AB26F9D620171BB600FF7DC4 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		AB26F9D820171BE400FF7DC4 /* CurrencyDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDataModel.swift; sourceTree = "<group>"; };
+		AB26F9DA20171C1100FF7DC4 /* WalletCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCell.swift; sourceTree = "<group>"; };
+		AB26F9DD20172CDA00FF7DC4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AB26F9DF20172D2F00FF7DC4 /* CurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewModel.swift; sourceTree = "<group>"; };
 		AB550778200F6C8A00B02908 /* Alt exchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alt exchange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB55077B200F6C8A00B02908 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB550780200F6C8A00B02908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,9 +101,21 @@
 		AB55079B200F6C8A00B02908 /* Alt_exchangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alt_exchangeUITests.swift; sourceTree = "<group>"; };
 		AB55079D200F6C8A00B02908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB5507A9200F6CBA00B02908 /* WalletsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsViewController.swift; sourceTree = "<group>"; };
-		AB5507AB200F6CCA00B02908 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		AB5507AD200F6CDC00B02908 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
-		AB5507AF200F6CF600B02908 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AB5507AF200F6CF600B02908 /* CardInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoViewController.swift; sourceTree = "<group>"; };
+		ABC549142017343800BFA2DA /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC549152017343800BFA2DA /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC549162017343800BFA2DA /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC549172017343800BFA2DA /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC549182017359E00BFA2DA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		ABC5491B2017B55A00BFA2DA /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		ABC749EB20195A77009D436D /* RechangeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechangeTableViewCell.swift; sourceTree = "<group>"; };
+		ABC749ED20196002009D436D /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		ABC749F02019FDEC009D436D /* AlertPopUpProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPopUpProtocol.swift; sourceTree = "<group>"; };
+		ABC749F22019FEFB009D436D /* CustomPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUp.swift; sourceTree = "<group>"; };
+		B6E6B36AD3244D020D8D2C38 /* Pods-Alt exchange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alt exchange.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alt exchange/Pods-Alt exchange.debug.xcconfig"; sourceTree = "<group>"; };
+		CEDE269FE27A87C434690C1D /* Pods_Alt_exchange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alt_exchange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31406D84F135442D5C2E2D5 /* Pods-Alt exchange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alt exchange.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alt exchange/Pods-Alt exchange.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +123,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC549192017359E00BFA2DA /* MobileCoreServices.framework in Frameworks */,
+				ABC549102017343800BFA2DA /* Moya.framework in Frameworks */,
+				ABC549112017343800BFA2DA /* Result.framework in Frameworks */,
+				ABC549122017343800BFA2DA /* RxCocoa.framework in Frameworks */,
+				ABC549132017343800BFA2DA /* RxSwift.framework in Frameworks */,
+				14C103E9197378D0B4E31302 /* Pods_Alt_exchange.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +149,123 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E11FA20521AAA44A61AC3EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABC549182017359E00BFA2DA /* MobileCoreServices.framework */,
+				ABC549142017343800BFA2DA /* Moya.framework */,
+				ABC549152017343800BFA2DA /* Result.framework */,
+				ABC549162017343800BFA2DA /* RxCocoa.framework */,
+				ABC549172017343800BFA2DA /* RxSwift.framework */,
+				CEDE269FE27A87C434690C1D /* Pods_Alt_exchange.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB135BFE2017CB8D006E39E6 /* LogInVC */ = {
+			isa = PBXGroup;
+			children = (
+				AB135C012017D091006E39E6 /* LogInViewController.swift */,
+				AB135C032017F0D0006E39E6 /* RegisterViewController.swift */,
+			);
+			path = LogInVC;
+			sourceTree = "<group>";
+		};
+		AB13D9CF201801BA00AB8DEC /* MyProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				AB13D9D02018025500AB8DEC /* ProfileInfoViewController.swift */,
+				AB13D9D22018043300AB8DEC /* ProfileInfoTableViewCell.swift */,
+			);
+			path = MyProfileVC;
+			sourceTree = "<group>";
+		};
+		AB13D9D82018950400AB8DEC /* HistoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				AB0DFC7420192ECF0093B29E /* HistoryViewController.swift */,
+				ABC749ED20196002009D436D /* HistoryTableViewCell.swift */,
+			);
+			path = HistoryVC;
+			sourceTree = "<group>";
+		};
+		AB13D9D92018951600AB8DEC /* RechangeVC */ = {
+			isa = PBXGroup;
+			children = (
+				AB0DFC7620192EF80093B29E /* RechangeViewController.swift */,
+				ABC749EB20195A77009D436D /* RechangeTableViewCell.swift */,
+			);
+			path = RechangeVC;
+			sourceTree = "<group>";
+		};
+		AB22F3522018B290008BBEA8 /* Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				AB22F3552018B2A1008BBEA8 /* BEMAnimationManager.h */,
+				AB22F3542018B2A0008BBEA8 /* BEMAnimationManager.m */,
+				AB22F35A2018B2A2008BBEA8 /* BEMCheckBox.h */,
+				AB22F3572018B2A1008BBEA8 /* BEMCheckBox.m */,
+				AB22F3582018B2A1008BBEA8 /* BEMCheckBoxGroup.h */,
+				AB22F3592018B2A2008BBEA8 /* BEMCheckBoxGroup.m */,
+				AB22F3532018B2A0008BBEA8 /* BEMPathManager.h */,
+				AB22F3562018B2A1008BBEA8 /* BEMPathManager.m */,
+			);
+			path = Checkbox;
+			sourceTree = "<group>";
+		};
+		AB26F9CF2016452700FF7DC4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB13D9D92018951600AB8DEC /* RechangeVC */,
+				AB13D9D82018950400AB8DEC /* HistoryVC */,
+				AB13D9CF201801BA00AB8DEC /* MyProfileVC */,
+				AB135BFE2017CB8D006E39E6 /* LogInVC */,
+				ABC5491A20177E8200BFA2DA /* SettingsVC */,
+				AB26F9DC20172C8200FF7DC4 /* WalletVC */,
+				AB26F9D0201646C200FF7DC4 /* Storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AB26F9D0201646C200FF7DC4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AB26F9D1201647DA00FF7DC4 /* MainTabs.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		AB26F9D420171B3900FF7DC4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AB26F9D620171BB600FF7DC4 /* NetworkHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AB26F9D520171B8E00FF7DC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABC749EF2019FDD0009D436D /* AlertPopUp */,
+				AB22F3522018B290008BBEA8 /* Checkbox */,
+				AB26F9D820171BE400FF7DC4 /* CurrencyDataModel.swift */,
+				AB26F9DF20172D2F00FF7DC4 /* CurrencyViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB26F9DC20172C8200FF7DC4 /* WalletVC */ = {
+			isa = PBXGroup;
+			children = (
+				AB5507A9200F6CBA00B02908 /* WalletsViewController.swift */,
+				ABC5491B2017B55A00BFA2DA /* ChartsViewController.swift */,
+				AB26F9DA20171C1100FF7DC4 /* WalletCell.swift */,
+				AB26F9DD20172CDA00FF7DC4 /* DetailViewController.swift */,
+				AB22F35F2018B36E008BBEA8 /* CheckBoxHeader.h */,
+			);
+			path = WalletVC;
+			sourceTree = "<group>";
+		};
 		AB55076F200F6C8A00B02908 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +273,8 @@
 				AB55078F200F6C8A00B02908 /* Alt exchangeTests */,
 				AB55079A200F6C8A00B02908 /* Alt exchangeUITests */,
 				AB550779200F6C8A00B02908 /* Products */,
+				F254DB147EFC9A0569DC1246 /* Pods */,
+				2E11FA20521AAA44A61AC3EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,11 +292,11 @@
 			isa = PBXGroup;
 			children = (
 				AB55077B200F6C8A00B02908 /* AppDelegate.swift */,
-				AB5507A9200F6CBA00B02908 /* WalletsViewController.swift */,
-				AB5507AF200F6CF600B02908 /* SettingsViewController.swift */,
-				AB5507AB200F6CCA00B02908 /* HistoryViewController.swift */,
 				AB5507AD200F6CDC00B02908 /* MyProfileViewController.swift */,
 				AB55077F200F6C8A00B02908 /* Main.storyboard */,
+				AB26F9D520171B8E00FF7DC4 /* Models */,
+				AB26F9D420171B3900FF7DC4 /* Helpers */,
+				AB26F9CF2016452700FF7DC4 /* Controllers */,
 				AB550782200F6C8A00B02908 /* Assets.xcassets */,
 				AB550784200F6C8A00B02908 /* LaunchScreen.storyboard */,
 				AB550787200F6C8A00B02908 /* Info.plist */,
@@ -134,6 +322,34 @@
 			path = "Alt exchangeUITests";
 			sourceTree = "<group>";
 		};
+		ABC5491A20177E8200BFA2DA /* SettingsVC */ = {
+			isa = PBXGroup;
+			children = (
+				AB5507AF200F6CF600B02908 /* CardInfoViewController.swift */,
+				AB13D9D42018091A00AB8DEC /* SettingsTableViewController.swift */,
+				AB13D9D62018098700AB8DEC /* SettingsTableViewCell.swift */,
+			);
+			path = SettingsVC;
+			sourceTree = "<group>";
+		};
+		ABC749EF2019FDD0009D436D /* AlertPopUp */ = {
+			isa = PBXGroup;
+			children = (
+				ABC749F02019FDEC009D436D /* AlertPopUpProtocol.swift */,
+				ABC749F22019FEFB009D436D /* CustomPopUp.swift */,
+			);
+			path = AlertPopUp;
+			sourceTree = "<group>";
+		};
+		F254DB147EFC9A0569DC1246 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6E6B36AD3244D020D8D2C38 /* Pods-Alt exchange.debug.xcconfig */,
+				D31406D84F135442D5C2E2D5 /* Pods-Alt exchange.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +357,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB5507A0200F6C8A00B02908 /* Build configuration list for PBXNativeTarget "Alt exchange" */;
 			buildPhases = (
+				32721746C780C37F824E0407 /* [CP] Check Pods Manifest.lock */,
 				AB550774200F6C8A00B02908 /* Sources */,
 				AB550775200F6C8A00B02908 /* Frameworks */,
 				AB550776200F6C8A00B02908 /* Resources */,
+				847FC8329D526BE4CE5396EB /* [CP] Embed Pods Frameworks */,
+				BA3DAA1C6056F550867C6109 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,6 +461,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB550786200F6C8A00B02908 /* LaunchScreen.storyboard in Resources */,
+				AB26F9D2201647DA00FF7DC4 /* MainTabs.storyboard in Resources */,
 				AB550783200F6C8A00B02908 /* Assets.xcassets in Resources */,
 				AB550781200F6C8A00B02908 /* Main.storyboard in Resources */,
 			);
@@ -263,16 +483,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32721746C780C37F824E0407 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alt exchange-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		847FC8329D526BE4CE5396EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Alt exchange/Pods-Alt exchange-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/CreditCardForm/CreditCardForm.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CreditCardForm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alt exchange/Pods-Alt exchange-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA3DAA1C6056F550867C6109 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alt exchange/Pods-Alt exchange-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB550774200F6C8A00B02908 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB5507AC200F6CCA00B02908 /* HistoryViewController.swift in Sources */,
+				AB26F9DE20172CDA00FF7DC4 /* DetailViewController.swift in Sources */,
+				ABC5491C2017B55A00BFA2DA /* ChartsViewController.swift in Sources */,
+				AB26F9E020172D2F00FF7DC4 /* CurrencyViewModel.swift in Sources */,
 				AB55077C200F6C8A00B02908 /* AppDelegate.swift in Sources */,
+				AB0DFC7520192ECF0093B29E /* HistoryViewController.swift in Sources */,
 				AB5507AE200F6CDC00B02908 /* MyProfileViewController.swift in Sources */,
-				AB5507B0200F6CF600B02908 /* SettingsViewController.swift in Sources */,
+				AB13D9D12018025500AB8DEC /* ProfileInfoViewController.swift in Sources */,
+				AB135C022017D091006E39E6 /* LogInViewController.swift in Sources */,
+				AB5507B0200F6CF600B02908 /* CardInfoViewController.swift in Sources */,
+				AB22F35E2018B2A2008BBEA8 /* BEMCheckBoxGroup.m in Sources */,
+				AB13D9D32018043300AB8DEC /* ProfileInfoTableViewCell.swift in Sources */,
+				AB26F9DB20171C1100FF7DC4 /* WalletCell.swift in Sources */,
+				AB22F35C2018B2A2008BBEA8 /* BEMPathManager.m in Sources */,
+				ABC749EC20195A77009D436D /* RechangeTableViewCell.swift in Sources */,
+				ABC749F12019FDEC009D436D /* AlertPopUpProtocol.swift in Sources */,
+				AB22F35B2018B2A2008BBEA8 /* BEMAnimationManager.m in Sources */,
+				AB13D9D72018098700AB8DEC /* SettingsTableViewCell.swift in Sources */,
+				ABC749F32019FEFB009D436D /* CustomPopUp.swift in Sources */,
+				AB26F9D920171BE400FF7DC4 /* CurrencyDataModel.swift in Sources */,
+				AB13D9D52018091A00AB8DEC /* SettingsTableViewController.swift in Sources */,
+				ABC749EE20196002009D436D /* HistoryTableViewCell.swift in Sources */,
+				AB135C042017F0D0006E39E6 /* RegisterViewController.swift in Sources */,
+				AB26F9D720171BB600FF7DC4 /* NetworkHelper.swift in Sources */,
+				AB0DFC7720192EF80093B29E /* RechangeViewController.swift in Sources */,
 				AB5507AA200F6CBA00B02908 /* WalletsViewController.swift in Sources */,
+				AB22F35D2018B2A2008BBEA8 /* BEMCheckBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +747,7 @@
 		};
 		AB5507A1200F6C8A00B02908 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E6B36AD3244D020D8D2C38 /* Pods-Alt exchange.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -444,6 +756,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MadeInHeaven.Alt-exchange";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alt exchange/Controllers/WalletVC/CheckBoxHeader.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,6 +764,7 @@
 		};
 		AB5507A2200F6C8A00B02908 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31406D84F135442D5C2E2D5 /* Pods-Alt exchange.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,6 +773,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MadeInHeaven.Alt-exchange";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alt exchange/Controllers/WalletVC/CheckBoxHeader.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
