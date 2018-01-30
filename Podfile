@@ -11,4 +11,5 @@ target 'Alt exchange' do
   pod 'TextFieldEffects'
   pod 'Stripe'
   pod 'CreditCardForm'
+  pod 'XLPagerTabStrip'
   end

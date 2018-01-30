@@ -10,12 +10,14 @@
 		14C103E9197378D0B4E31302 /* Pods_Alt_exchange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDE269FE27A87C434690C1D /* Pods_Alt_exchange.framework */; };
 		AB0DFC7520192ECF0093B29E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0DFC7420192ECF0093B29E /* HistoryViewController.swift */; };
 		AB0DFC7720192EF80093B29E /* RechangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0DFC7620192EF80093B29E /* RechangeViewController.swift */; };
+		AB131E0E201E48EA00E8DA28 /* FakeWalletsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB131E0D201E48E900E8DA28 /* FakeWalletsViewController.swift */; };
 		AB135C022017D091006E39E6 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB135C012017D091006E39E6 /* LogInViewController.swift */; };
 		AB135C042017F0D0006E39E6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB135C032017F0D0006E39E6 /* RegisterViewController.swift */; };
 		AB13D9D12018025500AB8DEC /* ProfileInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13D9D02018025500AB8DEC /* ProfileInfoViewController.swift */; };
 		AB13D9D32018043300AB8DEC /* ProfileInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13D9D22018043300AB8DEC /* ProfileInfoTableViewCell.swift */; };
 		AB13D9D52018091A00AB8DEC /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13D9D42018091A00AB8DEC /* SettingsTableViewController.swift */; };
 		AB13D9D72018098700AB8DEC /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13D9D62018098700AB8DEC /* SettingsTableViewCell.swift */; };
+		AB177725201E335C0051089C /* MTBiometricAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB177724201E335C0051089C /* MTBiometricAuthentication.swift */; };
 		AB22F35B2018B2A2008BBEA8 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB22F3542018B2A0008BBEA8 /* BEMAnimationManager.m */; };
 		AB22F35C2018B2A2008BBEA8 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB22F3562018B2A1008BBEA8 /* BEMPathManager.m */; };
 		AB22F35D2018B2A2008BBEA8 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = AB22F3572018B2A1008BBEA8 /* BEMCheckBox.m */; };
@@ -35,6 +37,7 @@
 		AB5507AA200F6CBA00B02908 /* WalletsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5507A9200F6CBA00B02908 /* WalletsViewController.swift */; };
 		AB5507AE200F6CDC00B02908 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5507AD200F6CDC00B02908 /* MyProfileViewController.swift */; };
 		AB5507B0200F6CF600B02908 /* CardInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5507AF200F6CF600B02908 /* CardInfoViewController.swift */; };
+		AB9CD677201E1F1D0004D2F5 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CD676201E1F1D0004D2F5 /* BuyViewController.swift */; };
 		ABC549102017343800BFA2DA /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC549142017343800BFA2DA /* Moya.framework */; };
 		ABC549112017343800BFA2DA /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC549152017343800BFA2DA /* Result.framework */; };
 		ABC549122017343800BFA2DA /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC549162017343800BFA2DA /* RxCocoa.framework */; };
@@ -67,12 +70,14 @@
 /* Begin PBXFileReference section */
 		AB0DFC7420192ECF0093B29E /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		AB0DFC7620192EF80093B29E /* RechangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechangeViewController.swift; sourceTree = "<group>"; };
+		AB131E0D201E48E900E8DA28 /* FakeWalletsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeWalletsViewController.swift; sourceTree = "<group>"; };
 		AB135C012017D091006E39E6 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		AB135C032017F0D0006E39E6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		AB13D9D02018025500AB8DEC /* ProfileInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoViewController.swift; sourceTree = "<group>"; };
 		AB13D9D22018043300AB8DEC /* ProfileInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoTableViewCell.swift; sourceTree = "<group>"; };
 		AB13D9D42018091A00AB8DEC /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		AB13D9D62018098700AB8DEC /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		AB177724201E335C0051089C /* MTBiometricAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTBiometricAuthentication.swift; sourceTree = "<group>"; };
 		AB22F3532018B2A0008BBEA8 /* BEMPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMPathManager.h; sourceTree = "<group>"; };
 		AB22F3542018B2A0008BBEA8 /* BEMAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnimationManager.m; sourceTree = "<group>"; };
 		AB22F3552018B2A1008BBEA8 /* BEMAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnimationManager.h; sourceTree = "<group>"; };
@@ -103,6 +108,7 @@
 		AB5507A9200F6CBA00B02908 /* WalletsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsViewController.swift; sourceTree = "<group>"; };
 		AB5507AD200F6CDC00B02908 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		AB5507AF200F6CF600B02908 /* CardInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoViewController.swift; sourceTree = "<group>"; };
+		AB9CD676201E1F1D0004D2F5 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		ABC549142017343800BFA2DA /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC549152017343800BFA2DA /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC549162017343800BFA2DA /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				AB135C012017D091006E39E6 /* LogInViewController.swift */,
+				AB177724201E335C0051089C /* MTBiometricAuthentication.swift */,
 				AB135C032017F0D0006E39E6 /* RegisterViewController.swift */,
 			);
 			path = LogInVC;
@@ -231,6 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				AB26F9D1201647DA00FF7DC4 /* MainTabs.storyboard */,
+				AB131E0D201E48E900E8DA28 /* FakeWalletsViewController.swift */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -258,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				AB5507A9200F6CBA00B02908 /* WalletsViewController.swift */,
+				AB9CD676201E1F1D0004D2F5 /* BuyViewController.swift */,
 				ABC5491B2017B55A00BFA2DA /* ChartsViewController.swift */,
 				AB26F9DA20171C1100FF7DC4 /* WalletCell.swift */,
 				AB26F9DD20172CDA00FF7DC4 /* DetailViewController.swift */,
@@ -518,6 +527,7 @@
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
 				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -530,6 +540,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -578,12 +589,15 @@
 				ABC749F32019FEFB009D436D /* CustomPopUp.swift in Sources */,
 				AB26F9D920171BE400FF7DC4 /* CurrencyDataModel.swift in Sources */,
 				AB13D9D52018091A00AB8DEC /* SettingsTableViewController.swift in Sources */,
+				AB9CD677201E1F1D0004D2F5 /* BuyViewController.swift in Sources */,
+				AB177725201E335C0051089C /* MTBiometricAuthentication.swift in Sources */,
 				ABC749EE20196002009D436D /* HistoryTableViewCell.swift in Sources */,
 				AB135C042017F0D0006E39E6 /* RegisterViewController.swift in Sources */,
 				AB26F9D720171BB600FF7DC4 /* NetworkHelper.swift in Sources */,
 				AB0DFC7720192EF80093B29E /* RechangeViewController.swift in Sources */,
 				AB5507AA200F6CBA00B02908 /* WalletsViewController.swift in Sources */,
 				AB22F35D2018B2A2008BBEA8 /* BEMCheckBox.m in Sources */,
+				AB131E0E201E48EA00E8DA28 /* FakeWalletsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -201,7 +201,7 @@ class WalletsViewController: UIViewController,ChartViewDelegate {
         chartView.drawSlicesUnderHoleEnabled = false
         chartView.holeRadiusPercent = 0.58
         chartView.transparentCircleRadiusPercent = 0.61
-        chartView.chartDescription?.enabled = true
+        chartView.chartDescription?.enabled = false
         chartView.setExtraOffsets(left: 10, top: 5, right: 10, bottom: 5)
         chartView.drawEntryLabelsEnabled = false
         
@@ -222,12 +222,11 @@ class WalletsViewController: UIViewController,ChartViewDelegate {
         
         chartView.drawHoleEnabled = false
         chartView.rotationAngle = 0
-        chartView.rotationEnabled = true
+        chartView.rotationEnabled = false
         chartView.highlightPerTapEnabled = true
         
         let l = chartView.legend
         l.horizontalAlignment = .right
-        l.verticalAlignment = .top
         l.orientation = .vertical
         l.drawInside = false
         l.xEntrySpace = 9
@@ -245,7 +244,7 @@ class WalletsViewController: UIViewController,ChartViewDelegate {
         chartView.chartDescription?.enabled = false
         
         chartView.dragEnabled = true
-        chartView.setScaleEnabled(false)
+        chartView.setScaleEnabled(true)
         chartView.pinchZoomEnabled = true
         
         // ChartYAxis *leftAxis = chartView.leftAxis;

@@ -12,6 +12,7 @@ import CreditCardForm
 
 class CardInfoViewController: UIViewController,STPPaymentCardTextFieldDelegate {
 
+    @IBOutlet weak var sendPaymentBtn: UIButton!
     @IBAction func cancelBtnDidTapped(_ sender: UIBarButtonItem) {
         dismiss(animated: true, completion: nil)
     }
@@ -20,8 +21,19 @@ class CardInfoViewController: UIViewController,STPPaymentCardTextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let button = UIButton.init(type: .custom)
+        button.setImage(UIImage.init(named: "Logo_main.png"), for: UIControlState.normal)
+        button.addTarget(self, action:#selector(FakeWalletsViewController.callMethod), for:.touchUpInside)
+        button.frame = CGRect.init(x: 0, y: 0, width: 135, height: 35) //CGRectMake(0, 0, 30, 30)
+        let barButton = UIBarButtonItem.init(customView: button)
+        self.navigationItem.leftBarButtonItem = barButton
+        self.sendPaymentBtn.layer.cornerRadius = 15
         creditCardView.cardHolderString = "Ivan Ivanov"
         createTextField()
+    }
+    
+    @objc func callMethod() {
+        print("logo pressed")
     }
     
     func createTextField() {

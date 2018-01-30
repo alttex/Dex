@@ -41,8 +41,8 @@ class ChartsViewController: WalletsViewController,UISearchBarDelegate {
         chartView.backgroundColor = UIColor(red: 24/255, green: 24/255, blue: 24/255, alpha: 1)
         chartView.highlightPerDragEnabled = false
         chartView.drawValueAboveBarEnabled = true
-        chartView.autoScaleMinMaxEnabled = false
-        chartView.fitBars = false
+        chartView.autoScaleMinMaxEnabled = true
+        chartView.fitBars = true
         handleOption(Option.animateXY, forChartView: chartView)
         // Do any additional setup after loading the view.
         self.options = [.toggleValues,
@@ -60,7 +60,7 @@ class ChartsViewController: WalletsViewController,UISearchBarDelegate {
         
         chartView.delegate = self 
         
-        chartView.setExtraOffsets(left: 12, top: -5, right: 12, bottom: 5)
+        chartView.setExtraOffsets(left: 12, top: -15, right: 12, bottom: -50)
         
         chartView.drawBarShadowEnabled = false
         chartView.chartDescription?.enabled = false
@@ -71,8 +71,8 @@ class ChartsViewController: WalletsViewController,UISearchBarDelegate {
         
         let leftAxis = chartView.leftAxis
         leftAxis.drawLabelsEnabled = false
-        leftAxis.spaceTop = 0.25
-        leftAxis.spaceBottom = 0.25
+
+      
         leftAxis.drawAxisLineEnabled = false
         leftAxis.drawZeroLineEnabled = true
         leftAxis.zeroLineColor = .white

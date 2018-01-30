@@ -162,7 +162,7 @@ open class BarChartView: BarLineChartViewBase, BarChartDataProvider
     
     /// Adds half of the bar width to each side of the x-axis range in order to allow the bars of the barchart to be fully displayed.
     /// **default**: false
-    @objc open var fitBars = false
+    @objc open var fitBars = true
     
     /// Set this to `true` to make the highlight operation full-bar oriented, `false` to make it highlight single values (relevant only for stacked).
     /// If enabled, highlighting operations will highlight the whole bar, even if only a single stack entry was tapped.

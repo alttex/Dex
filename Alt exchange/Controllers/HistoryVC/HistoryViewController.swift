@@ -15,9 +15,23 @@ class HistoryViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let button = UIButton.init(type: .custom)
+        button.setImage(UIImage.init(named: "Logo_main.png"), for: UIControlState.normal)
+        button.addTarget(self, action:#selector(FakeWalletsViewController.callMethod), for:.touchUpInside)
+        button.frame = CGRect.init(x: 0, y: 0, width: 135, height: 35) //CGRectMake(0, 0, 30, 30)
+        let barButton = UIBarButtonItem.init(customView: button)
+        self.navigationItem.leftBarButtonItem = barButton
+        
      self.tableView.contentInset = UIEdgeInsetsMake(50, 0, 0, 0)
         
     }
+    
+    
+    
+    @objc func callMethod() {
+        print("logo pressed")
+    }
+    
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)

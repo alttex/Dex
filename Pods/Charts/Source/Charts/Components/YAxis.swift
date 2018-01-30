@@ -113,7 +113,7 @@ open class YAxis: AxisBase
         let label = getLongestLabel() as NSString
         var size = label.size(withAttributes: [NSAttributedStringKey.font: labelFont])
         size.width += xOffset * 2.0
-        size.height += yOffset * 2.0
+        size.height += yOffset 
         size.width = max(minWidth, min(size.width, maxWidth > 0.0 ? maxWidth : size.width))
         return size
     }

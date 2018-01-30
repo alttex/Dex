@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import XLPagerTabStrip
+
 
 class DetailsViewController: UIViewController {
     
